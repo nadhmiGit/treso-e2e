@@ -19,6 +19,9 @@
     "test:smoke:firefox": "npm run test:smoke -- --project=firefox",
     "test:smoke:webkit": "npm run test:smoke -- --project=webkit",
     "test:regression:chromium": "npm run test:regression -- --project=chromium",
+    "test:login": "npm run test -- --grep @login",
+    "test:login:chromium": "npm run test:login -- --project=chromium",
+    "test:api": "npm run test -- --project=api",
     "report": "playwright show-report"
   },
   "keywords": [

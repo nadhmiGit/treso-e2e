@@ -1,0 +1,21 @@
+- generic [ref=e3]:
+  - img [ref=e6]
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - heading "Ravis de vous revoir !" [level=1] [ref=e9]:
+        - generic [ref=e14]: Ravis de vous revoir !
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - button [ref=e23] [cursor=pointer]
+          - text: Mot de passe
+        - generic [ref=e24]:
+          - textbox "Mot de passe" [active] [ref=e25]:
+            - /placeholder: Veuillez entrer votre mot de passe
+            - text: Nadh22328248)
+          - button "Show password" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: 
+      - button "Suivant" [ref=e29] [cursor=pointer]
+      - link "Mot de passe oublié ?" [ref=e33] [cursor=pointer]:
+        - /url: /realms/treso2-clients-testing/login-actions/reset-credentials?client_id=remix-nestjs-platform-v2&tab_id=N9C7n9BfYjI
+  - button "Langues" [ref=e38] [cursor=pointer]: Français

@@ -1,0 +1,13 @@
+- generic [ref=e3]:
+  - img [ref=e6]
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - heading "Ravis de vous revoir !" [level=1] [ref=e9]:
+        - generic [ref=e14]: Ravis de vous revoir !
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]: Email
+        - textbox "Email" [active] [ref=e22]:
+          - /placeholder: Veuillez entrer votre email
+      - button "Suivant" [ref=e24] [cursor=pointer]
+  - button "Langues" [ref=e29] [cursor=pointer]: Français

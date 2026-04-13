@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_type",
+      "mcp__playwright__browser_click",
+      "Bash(curl -s \"https://api.treso2.com/v2/docs-json\")",
+      "Bash(curl -s \"https://api.treso2.com/v2/docs-json\" -L -o /tmp/treso_docs.json)",
+      "Read(//tmp/**)",
+      "Bash(curl -sv \"https://api.treso2.com/v2/docs-json\")",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' https://api.treso2.com__TRACKED_VAR__)",
+      "Bash(curl -s -I https://api.treso2.com__TRACKED_VAR__)",
+      "Bash(curl -s \"https://api.treso2.com/docs-json\" -o /tmp/treso_openapi.json)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(open\\('/tmp/treso_openapi.json'\\)\\); print\\('keys:', list\\(d.keys\\(\\)\\)[:10]\\)\")",
+      "Bash(node:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_fill_form",
+      "mcp__playwright__browser_take_screenshot",
+      "Bash(npx bddgen:*)",
+      "Bash(npx playwright:*)"
+    ]
+  }
+}

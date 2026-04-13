@@ -1,0 +1,180 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6] [cursor=pointer]: ›
+    - link "Main Logo Main Logo" [ref=e9] [cursor=pointer]:
+      - /url: /invoice-hub
+      - img "Main Logo" [ref=e10]
+      - img "Main Logo" [ref=e11]
+    - menu [ref=e12]:
+      - link "Tableau de bord" [ref=e15] [cursor=pointer]:
+        - /url: /invoice-hub/
+        - img [ref=e17]
+        - generic [ref=e19]: Tableau de bord
+      - generic [ref=e20]:
+        - menuitem "Invoice Hub" [ref=e23]:
+          - img [ref=e26]
+          - generic [ref=e28]: Invoice Hub
+        - generic [ref=e29]:
+          - link "Factures sortantes" [ref=e32] [cursor=pointer]:
+            - /url: /invoice-hub/outgoing-invoices/all
+          - link "Factures entrantes" [ref=e35] [cursor=pointer]:
+            - /url: /invoice-hub/incoming-invoices/all
+          - link "Bons de commande" [ref=e38] [cursor=pointer]:
+            - /url: /invoice-hub/purchase-orders/completed
+          - link "Bons de réception" [ref=e41] [cursor=pointer]:
+            - /url: /invoice-hub/receipt-slips/completed
+      - link "Conformity" [ref=e44] [cursor=pointer]:
+        - /url: /conformity/my-company/info
+        - img [ref=e46]
+        - generic [ref=e48]: Conformity
+  - generic [ref=e49]:
+    - generic [ref=e50]:
+      - button [ref=e52] [cursor=pointer]:
+        - img [ref=e54]
+      - button "N. Benmed" [ref=e58] [cursor=pointer]:
+        - img [ref=e60]
+        - generic [ref=e64]: N. Benmed
+        - img [ref=e66]
+      - button "French" [ref=e69] [cursor=pointer]:
+        - img "French" [ref=e73]
+        - img [ref=e75]
+    - generic [ref=e78]:
+      - generic [ref=e79]:
+        - img [ref=e82]
+        - generic [ref=e84]:
+          - generic [ref=e85]: Bonjour Nadhmi !
+          - generic [ref=e86]: Gérez vos factures électroniques, votre financement et la conformité de vos partenaires dans un espace unique dédié !
+      - generic [ref=e87]:
+        - img [ref=e89]
+        - paragraph [ref=e91]: Une erreur est survenue lors de la récupération des données des financements
+      - generic [ref=e92]:
+        - heading "Invoice Hub" [level=3] [ref=e93]
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - link "Factures sortantes" [ref=e96] [cursor=pointer]:
+              - /url: /invoice-hub/outgoing-invoices/all
+              - generic [ref=e97]:
+                - img [ref=e99]
+                - text: Factures sortantes
+            - generic [ref=e101]:
+              - link "En validation 0" [ref=e102] [cursor=pointer]:
+                - /url: /invoice-hub/outgoing-invoices/inValidation
+                - img [ref=e104]
+                - generic [ref=e106]: En validation
+                - generic [ref=e107]: "0"
+              - link "A résoudre 0" [ref=e108] [cursor=pointer]:
+                - /url: /invoice-hub/outgoing-invoices/toFix
+                - img [ref=e110]
+                - generic [ref=e112]: A résoudre
+                - generic [ref=e113]: "0"
+              - link "À encaisser (en retard) 0" [ref=e114] [cursor=pointer]:
+                - /url: /invoice-hub/outgoing-invoices/approved?paymentStatus=OVERDUE
+                - img [ref=e116]
+                - generic [ref=e118]: À encaisser (en retard)
+                - generic [ref=e119]: "0"
+            - generic [ref=e121]:
+              - generic [ref=e122]:
+                - heading "Cycle de vie sortant" [level=3] [ref=e123]:
+                  - img [ref=e125]
+                  - text: Cycle de vie sortant
+                - generic [ref=e127]: Statuts au 03/04/2026
+              - tablist [ref=e130]:
+                - tab "Toutes 0" [expanded] [selected] [ref=e131] [cursor=pointer]:
+                  - text: Toutes
+                  - generic [ref=e133]: "0"
+                - tab "Brouillon 0" [ref=e134] [cursor=pointer]:
+                  - text: Brouillon
+                  - generic [ref=e136]: "0"
+                - tab "En dématérialisation 0" [ref=e137] [cursor=pointer]:
+                  - text: En dématérialisation
+                  - generic [ref=e139]: "0"
+                - tab "En cours 0" [ref=e140] [cursor=pointer]:
+                  - text: En cours
+                  - generic [ref=e142]: "0"
+                - tab "En validation 0" [ref=e143] [cursor=pointer]:
+                  - text: En validation
+                  - generic [ref=e145]: "0"
+                - tab "Approuvées 0" [ref=e146] [cursor=pointer]:
+                  - text: Approuvées
+                  - generic [ref=e148]: "0"
+                - tab "A résoudre 0" [ref=e149] [cursor=pointer]:
+                  - text: A résoudre
+                  - generic [ref=e151]: "0"
+                - tab "Acquittées 0" [ref=e152] [cursor=pointer]:
+                  - text: Acquittées
+                  - generic [ref=e154]: "0"
+                - tab "Déclinées 0" [ref=e155] [cursor=pointer]:
+                  - text: Déclinées
+                  - generic [ref=e157]: "0"
+              - button "Toutes les factures sortantes" [ref=e158] [cursor=pointer]:
+                - generic [ref=e159]: Toutes les factures sortantes
+          - generic [ref=e160]:
+            - link "Factures entrantes" [ref=e161] [cursor=pointer]:
+              - /url: /invoice-hub/incoming-invoices/all
+              - generic [ref=e162]:
+                - img [ref=e164]
+                - text: Factures entrantes
+            - generic [ref=e166]:
+              - link "À valider 26" [ref=e167] [cursor=pointer]:
+                - /url: /invoice-hub/incoming-invoices/toValidate
+                - img [ref=e169]
+                - generic [ref=e171]: À valider
+                - generic [ref=e172]: "26"
+              - link "Déclinées 0" [ref=e173] [cursor=pointer]:
+                - /url: /invoice-hub/incoming-invoices/declined
+                - img [ref=e175]
+                - generic [ref=e177]: Déclinées
+                - generic [ref=e178]: "0"
+              - link "À payer (en retard) 0" [ref=e179] [cursor=pointer]:
+                - /url: /invoice-hub/incoming-invoices/approved?paymentStatus=OVERDUE
+                - img [ref=e181]
+                - generic [ref=e183]: À payer (en retard)
+                - generic [ref=e184]: "0"
+            - generic [ref=e186]:
+              - generic [ref=e187]:
+                - heading "Cycle de vie entrant" [level=3] [ref=e188]:
+                  - img [ref=e190]
+                  - text: Cycle de vie entrant
+                - generic [ref=e192]: Statuts au 03/04/2026
+              - generic [ref=e193]:
+                - tablist [ref=e195]:
+                  - tab "Toutes 31" [expanded] [selected] [ref=e196] [cursor=pointer]:
+                    - text: Toutes
+                    - generic [ref=e198]: "31"
+                  - tab "En dématérialisation 0" [ref=e199] [cursor=pointer]:
+                    - text: En dématérialisation
+                    - generic [ref=e201]: "0"
+                  - tab "À valider 26" [ref=e202] [cursor=pointer]:
+                    - text: À valider
+                    - generic [ref=e204]: "26"
+                  - tab "Approuvées 5" [ref=e205] [cursor=pointer]:
+                    - text: Approuvées
+                    - generic [ref=e207]: "5"
+                  - tab "A résoudre 0" [ref=e208] [cursor=pointer]:
+                    - text: A résoudre
+                    - generic [ref=e210]: "0"
+                  - tab "Acquittées 0" [ref=e211] [cursor=pointer]:
+                    - text: Acquittées
+                    - generic [ref=e213]: "0"
+                  - tab "Déclinées 0" [ref=e214] [cursor=pointer]:
+                    - text: Déclinées
+                    - generic [ref=e216]: "0"
+                - generic [ref=e217]:
+                  - generic [ref=e218]: Approuvées
+                  - generic [ref=e219]:
+                    - generic [ref=e220]: 5 factures
+                    - generic [ref=e221]: € 2 736,56
+                  - generic [ref=e222]: Mise à disposition
+                  - generic [ref=e223]:
+                    - generic [ref=e224]: 1 facture
+                    - generic [ref=e225]: € 430,48
+                  - generic [ref=e226]: Reçues
+                  - generic [ref=e227]:
+                    - generic [ref=e228]: 14 factures
+                    - generic [ref=e229]: € 9 988,83
+                  - generic [ref=e230]: Prises en charge
+                  - generic [ref=e231]:
+                    - generic [ref=e232]: 11 factures
+                    - generic [ref=e233]: € 7 010,54
+              - button "Toutes les factures entrantes" [ref=e234] [cursor=pointer]:
+                - generic [ref=e235]: Toutes les factures entrantes

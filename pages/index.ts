@@ -5,4 +5,5 @@
  */
 
 export { BasePage } from './base.page';
-export { FraudContactPage } from './fraudContact.page';
+export { OutgoingInvoicesPage } from './outgoingInvoices.page';
+export { IncomingInvoicesPage } from './incomingInvoices.page';
